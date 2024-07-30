@@ -1,18 +1,67 @@
 body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     margin: 0;
 }
 .img img{
-    display: flex;
-    width: 100%;
+    width: 1366px;
     height: 750px; 
 }
 .info{
-    display: flex;
-    margin-top: -120px;
-    text-align: center;
+    position: absolute;
     width: 1040px;
     height: 447px;
-    background-color: aqua;
+    top: 120px;
+    margin-left: 163px;   
+}
+.avatar{
+    display: inline-flex;
+    width: 112px;
+    height: 112px;
+
+}
+.user{
+    width: 87.27px;
+    height: 87.27px;
+    margin-top: 12.36px;
+    margin-left: 12.36px;
+    border-radius: 9999px;
+}
+.borda{
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 999px;
+    border: 2px solid #E3646E;
+}
+.seta{
+    width: 32px;
+    height: 32px;
+    margin-top: 78px;
+    margin-left: -21px;
     z-index: 1;
+}
+.text h1{
     
-}   
+    width: 680px;
+    height: 67px;
+    font-size: 56px;
+    line-height: 67.2px;
+    margin-top: 32px;
+    margin-left: 195px;
+    font-weight: 700;
+    color: white;
+}
+
+.text p{
+    width: 680px;
+    color: white;
+    margin-left: 195px;
+
+}
+   
+    
