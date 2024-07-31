@@ -12,11 +12,11 @@ body{
     width: 1040px;
     height: 447px;
     top: 120px;
-    margin-left: 22%;
-    text-align: center;   
+    margin-left: 22%;   
 }
 .avatar{
-    display:inline-flex;
+    display: inline-flex;
+    margin-left: 455px;
     width: 112px;
     height: 112px;
 
@@ -45,7 +45,6 @@ body{
     z-index: 1;
 }
 .text h1{
-    display: flex;
     width: 680px;
     height: 67px;
     font-size: 56px;
@@ -58,24 +57,22 @@ body{
 }
 
 .text p{
-    display: flex;
-    text-align: center;
-    margin-left: 175px;
     height: 40px;
     width: 680px;
     color: #878EA1;
+    margin-left: 195px;
     font-family:"maven pro", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19.6px;
-    
+    align-items: center;
 }
 .tags{
-    display: flex;
+    margin-top: 70px;
     width: 754px;
     height: 40px;
-    margin-left:  139px;
-    margin-top: 70px;
+    gap: 16px;
+    margin-left: 155px;   
 }
 
 .tags li{
