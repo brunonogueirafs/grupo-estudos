@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Maven+Pro:wght@400..900&display=swap');
 body{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     margin: 0;
 }
 .img img{
-    width: 1366px;
+    width: 100%;
     height: 750px; 
 }
 .info{
@@ -14,10 +12,11 @@ body{
     width: 1040px;
     height: 447px;
     top: 120px;
-    margin-left: 163px;   
+    margin-left: 22%;   
 }
 .avatar{
     display: inline-flex;
+    margin-left: 455px;
     width: 112px;
     height: 112px;
 
@@ -46,7 +45,6 @@ body{
     z-index: 1;
 }
 .text h1{
-    
     width: 680px;
     height: 67px;
     font-size: 56px;
@@ -54,14 +52,203 @@ body{
     margin-top: 32px;
     margin-left: 195px;
     font-weight: 700;
-    color: white;
+    color: #e2e4e9;
+    font-family: "Asap", sans-serif;
 }
 
 .text p{
+    height: 40px;
     width: 680px;
-    color: white;
+    color: #878EA1;
     margin-left: 195px;
+    font-family:"maven pro", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    align-items: center;
+}
+.tags{
+    margin-top: 70px;
+    width: 754px;
+    height: 40px;
+    gap: 16px;
+    margin-left: 155px;   
+}
+
+.tags li{
+    list-style: none;
+}
+.tags li a{
+    text-decoration: none;
 
 }
-   
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292C34;
+    width: 114px;
+    height: 40px;
+    border-radius: 1001px;
+    padding: 8px,16px,8px,16px;
+    gap: 8px;
+    background-color:#292C34;
+    margin-left: -40px;
     
+}
+.git img{
+    display: flex;
+    width: 24px;
+    height: 24px; 
+}
+.git li a{
+    display: flex;
+    justify-content: center;
+    color: #C0C4Ce;
+    align-items: center;
+    font-family: "maven pro", sans-serif;
+    gap: 8px;
+}
+.html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292C34;
+    width: 114px;
+    height: 40px;
+    border-radius: 1001px;
+    padding: 8px,16px,8px,16px;
+    gap: 8px;
+    background-color:#292C34;
+    margin-top: -40px;
+    margin-left: 88px;
+}
+.html img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+.html li a{
+    display: flex;
+    justify-content: center;
+    color: #C0C4Ce;
+    align-items: center;
+    font-family: "maven pro", sans-serif;
+    gap: 8px;
+}
+.css{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292C34;
+    width: 114px;
+    height: 40px;
+    border-radius: 1001px;
+    padding: 8px,16px,8px,16px;
+    gap: 8px;
+    background-color:#292C34;
+    margin-top: -40px;
+    margin-left: 216px;
+    
+    
+}
+.css img{
+    display: flex;
+    width: 24px;
+    height: 24px; 
+}
+.css li a{
+    display: flex;
+    justify-content: center;
+    color: #C0C4Ce;
+    align-items: center;
+    font-family: "maven pro", sans-serif;
+    gap: 8px;
+}
+.java{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292C34;
+    width: 114px;
+    height: 40px;
+    border-radius: 1001px;
+    padding: 8px,16px,8px,16px;
+    gap: 8px;
+    background-color:#292C34;
+    margin-top: -40px;
+    margin-left: 345px;
+
+    
+}
+.java img{
+    display: flex;
+    width: 24px;
+    height: 24px; 
+}
+.java li a{
+    display: flex;
+    justify-content: center;
+    color: #C0C4Ce;
+    align-items: center;
+    font-family: "maven pro", sans-serif;
+    gap: 8px;
+}
+.react{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292C34;
+    width: 114px;
+    height: 40px;
+    border-radius: 1001px;
+    padding: 8px,16px,8px,16px;
+    gap: 8px;
+    background-color:#292C34;
+    margin-top: -40px;
+    margin-left: 472px;
+    
+    
+}
+.react img{
+    display: flex;
+    width: 24px;
+    height: 24px; 
+}
+.react li a{
+    display: flex;
+    justify-content: center;
+    color: #C0C4Ce;
+    align-items: center;
+    font-family: "maven pro", sans-serif;
+    gap: 8px;
+}
+.node{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292C34;
+    width: 114px;
+    height: 40px;
+    border-radius: 1001px;
+    padding: 8px,16px,8px,16px;
+    gap: 8px;
+    background-color:#292C34;
+    margin-left: 600px;
+    margin-top: -40px;
+    
+    
+}
+.node img{
+    display: flex;
+    width: 24px;
+    height: 24px; 
+}
+.node li a{
+    display: flex;
+    justify-content: center;
+    color: #C0C4Ce;
+    align-items: center;
+    font-family: "maven pro", sans-serif;
+    gap: 8px;
+}
